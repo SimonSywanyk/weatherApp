@@ -1,8 +1,14 @@
-"scripts": {
-  "start": "node main.js"
-}
+
 {
-  "dependencies": {
+  "name": "brooklyn-plant-swap",
+  "version": "0.8.0",
+  "description": "Plant swap platform for those in Brooklyn, NY",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-css": "tailwindcss build style.css -o css/style.css"
+  },
+  "devDependencies": {
     "tailwindcss": "^3.1.8"
   }
 }
