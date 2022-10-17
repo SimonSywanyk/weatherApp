@@ -1,3 +1,6 @@
+"scripts": {
+  "start": "node main.js"
+}
 {
   "dependencies": {
     "tailwindcss": "^3.1.8"
