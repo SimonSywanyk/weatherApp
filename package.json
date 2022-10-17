@@ -1,11 +1,11 @@
 
 {
-  "name": "brooklyn-plant-swap",
-  "version": "0.8.0",
-  "description": "Plant swap platform for those in Brooklyn, NY",
-  "main": "server.js",
+  "name": "weather-api-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node main.js",
     "build-css": "tailwindcss build style.css -o css/style.css"
   },
   "devDependencies": {
