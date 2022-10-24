@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node main.js",
+    "start": "node js/main.js",
     "build-css": "tailwindcss build style.css -o css/style.css"
   },
   "devDependencies": {
